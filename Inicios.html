@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--version 1.2.3v-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CriptoNoticias</title>
+    <style>
+        /* Estilos del header */
+        header {
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+
+        h1 {
+            margin: 0;
+            color: #fff;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            margin-left: 20px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilos del modal */
+        .modal {
+            display: block; /* El modal aparece automáticamente al cargar la página */
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        /* Contenido del modal */
+        .modal-content {
+            background-color: #fff;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 500px;
+            text-align: center;
+        }
+
+        /* Botón de Aceptar */
+        .accept-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .accept-btn:hover {
+            background-color: #45a049;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1>CriptoNoticias</h1>
+            <ul>
+                <li><a href="Inicios.html">INICIO</a></li>
+                <li><a href="index.html">INFORMACIÓN</a></li>
+                <li><a href="Actoalisaciones.html">ACTUALIZACIONES</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- El Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Contenido del Modal -->
+        <div class="modal-content">
+            <h2>Bienvenido a CriptoNoticias</h2>
+            <p>Gracias por visitar nuestro sitio web dedicado a las últimas noticias sobre criptomonedas. Para continuar navegando, por favor acepta nuestros términos y condiciones cada dos 
+                semanas se borra la informacion.</p>
+            <!-- Botón obligatorio de aceptar -->
+            <button class="accept-btn" id="acceptBtn">Aceptar</button>
+        </div>
+
+    </div>
+
+    <script>
+        // Obtén el modal
+        var modal = document.getElementById("myModal");
+
+        // Obtén el botón de aceptar
+        var acceptBtn = document.getElementById("acceptBtn");
+
+        // Cuando el usuario hace clic en el botón de aceptar, se cierra el modal
+        acceptBtn.onclick = function() {
+            modal.style.display = "none";
+        }
+    </script>
+
+</body>
+</html>
