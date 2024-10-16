@@ -1,25 +1,24 @@
-
 <!DOCTYPE html>
- <!-- Este código es de experimento -->
 <html lang="es">
 <head>
-    <!-- Versión del código 1.2.3V -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CriptoNoticias</title>
-    <link rel="stylesheet" href="css/styles.css"> <!-- Corregido: 'real' a 'rel' -->
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-        /* Estilos para el encabezado y el menú de navegación */
+        /* Estilos generales */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            color: black;
         }
 
+        /* Estilos del menú */
         header {
-            background-color: #333;
-            color: white;
+            background-color: #333; /* Fondo oscuro */
+            color: white; /* Texto claro */
             padding: 10px 0;
         }
 
@@ -46,29 +45,43 @@
         }
 
         nav ul li a {
-            color: white;
+            color: white; /* Texto blanco para que resalte sobre el fondo oscuro */
             text-decoration: none;
             padding: 10px;
-            transition: background-color 0.3s;
+            transition: background-color 0.3s, color 0.3s;
         }
 
         nav ul li a:hover {
-            background-color: #ddd;
-            color: black;
+            background-color: #ddd; /* Fondo claro al hacer hover */
+            color: black; /* Texto negro al hacer hover */
         }
 
-        /* Estilo para los iconos de redes sociales */
-        .buttons {
-            margin-top: 20px;
-        }
+        /* Estilo responsivo para móviles */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
 
-        .buttons h6 {
-            margin: 5px 0;
-        }
+            nav ul li {
+                margin-left: 0;
+            }
 
-        .buttons a {
-            font-size: 24px;
-            color: #333;
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            h1, h2, h3, h4 {
+                font-size: 90%;
+            }
+
+            .buttons h6 {
+                font-size: 16px;
+            }
+
+            .buttons a {
+                font-size: 20px;
+            }
         }
     </style>
 </head>
@@ -87,74 +100,93 @@
 
     <!--Noticias-->
 
-    <h2>13 octu, 2024</h2>
+    <h2>15 octubre, 2024</h2>
 
-    <h1>Bitcoin mantiene tendencia alcista y logra una nueva marca por arriba de los 63.000 USD</h1>
-   <h4>El bitcoin ha sentado las bases para la creación de muchas de las monedas digitales existentes en el mercado y ha marcado un momento crucial
-     para las soluciones de pago digital.</h4>
-<br>
-<h2>
-     <p>La criptomoneda más popular del mercado, bitcoin, registró ganancias en las últimas horas y mantiene su racha positiva, sin embargo,
-         los analistas consideran que la moneda puede tener una mayor volatilidad en los próximos días por la especulación sobre otro anuncio de estímulo fiscal en China y el vencimiento de opciones de BTC por valor de 1.1 mil millones de dólares. Pese al escepticismo, hay quienes han apostado por el bitcoin: El Salvador se convirtió en el primer país en adoptar esta criptodivisa
-         como moneda legal el 9 de junio de 2021 y Honduras Próspera, una zona especial autónoma centroamericana, también ha hecho lo propio El costo de la criptomoneda bitcoin para este día a las 09:00 horas (UTC) es de 62664.22 dólares. Esto quiere decir que la moneda digital reportó un cambio de 3.12% en las últimas 24 horas, así como un movimiento de -0.11% en la última hora.Por su nivel de capitalización, esta moneda digital ocupa la posición #1 entre las más populares. </p>
-</h2>
+    <h1>Coinbase: Mercado cripto maduró 'dramáticamente' en 2024 </h1>
+    <h3> La oscilación de los precios no debería ocultar los rápidos avances que se están logrando en la incorporación de instituciones y usuarios a la cadena, según afirman Coinbase y Glassnode en un informe del cuarto trimestre.</h3>
+  
+    <br>
 
-<br>
+    <p><h2> El mercado de las criptomonedas habrá madurado "de forma espectacular" en 2024, a medida que miles de millones de dólares fluyan hacia los fondos cotizados (ETF) de criptomonedas
+         al contado y se dispare el volumen de transacciones en las redes blockchain, según un informe del 15 de octubre elaborado por Coinbase y Glassnode.
+        
+    <br>
 
-<h1>El flujo histórico de inversiones impulsa a bitcoin a máximos nunca antes vistos </h1>
-
-<h3><p> Este 12 de marzo bitcoin ha logrado un nuevo máximo histórico, superando los valores anteriores y reafirmándose como la criptomoneda más importante en el mercado, acercándose a los 73 mil dólares. Este récord se obtuvo en medio de un flujo sin precedentes de inversiones hacia las criptomonedas, un acontecimiento notable para el sector financiero digital.
-
-    El aumento en el valor de bitcoin ocurre en un contexto donde hay un entrante masivo de capital hacia las criptomonedas, lo que indica un creciente interés y confianza de los inversores en estos activos. La subida del precio beneficia no solo a bitcoin sino que también tiene un impacto positivo en el mercado de las criptomonedas en general, favoreciendo una mayor estabilidad y visibilidad, de acuerdo a un análisis de Bloomberg.
-    
-    Expertos financiaron este aumento a diferentes factores, como la adopción institucional de las criptomonedas, la búsqueda de alternativas de inversión debido a la incertidumbre económica mundial y la innovación continua en la tecnología blockchain que respalda a bitcoin y otras divisas digitales. Esta combinación de factores ha creado un entorno propicio para el crecimiento continuo en el valor de Bitcoin.</p></h3>
+ <p> "Desde el éxito arrollador de los ETF al contado hasta el repunte de la actividad en la cadena de bloques y el aumento de los volúmenes de negociación, está claro que los mercados se han vuelto más profundos, más líquidos, más sofisticados y más accesibles", según el informe, elaborado por David Duong,
+     jefe de investigación institucional de Coinbase, y el equipo de analistas de Glassnode.</p>
 
 <br>
 
-<h1> Cómo adquirirlas</h1>
-<p><h3> Para adquirirlas e intercambiarlas se utilizan portales especializados. Su valor varía en función de la oferta, de la demanda y del compromiso de los usuarios, por lo que puede cambiar más rápido que el dinero tradicional, pero mientras más gente esté interesada y quiera comprar determinada moneda, mayor será su precio.
-    No obstante, quien invierte en este tipo de monedas digitales debe tener muy claro que esta forma trae consigo un elevado riesgo al capital, pues, así como puede haber un incremento, también puede tener inesperadamente un desplome y acabar con los ahorros de sus usuarios 
- <br>
- Para almacenarlas, los usuarios deben contar con un monedero digital o wallet, que en realidad es un software a través del cual es posible guardar, enviar y hacer transacciones de las criptomonedas. En realidad, este tipo de monederos sólo guarda las claves que marcan la propiedad y el derecho de una persona sobre cierta criptomoneda, por lo que estos códigos son los que en realidad se deben proteger.
-</h3></p>
+<p>Además, la aceleración de la adopción de stablecoins y la proliferación de soluciones de escalado de capa 2 de Ethereum
+     "reflejan la maduración del mercado y la ampliación de la economía cripto", según el informe. </p>
 
-<br>
+ <img src="imagenes/grafica.jpg" alt="ERROR" width="50%" height="outo">
 
-<h1> Predicciones del precio de Bitcoin para finales de 2024 y el pronóstico para 2025</h1>
+ <p>En 2024, el mercado de criptomonedas se volvió menos volátil a medida que los inversores
+     se volcaron en activos de mayor calidad, según el informe. </p>
 
-<p><h4> Durante la última semana, el bitcoin ha estado fluctuando entre $59,019 y $63,794 por unidad. Aunque los precios han disminuido ligeramente—bajando un 1.29% en lo que va de octubre—todavía hay mucho optimismo de que ‘Uptober’ esté a la altura de su reputación. Después de todo, históricamente octubre ha sido un buen mes para bitcoin, con entusiastas esperando ansiosamente un posible rally a medida que nos adentramos en los próximos meses.</h4></p>
+     <br>
 
-<br>
+     <p> La volatilidad del precio al contado a tres meses de Bitcoin 
+        BTC
+        tickers down
+        61.671 €
+         se sitúa por debajo del 60%, frente a un pico de casi el 130% en 2021, según los datos. </p>
 
-<h2>12 octu, 2024</h2>
+         <br>
 
-<h1>Predicciones para el fin de 2024 sugieren un posible avance más allá de $74K </h1>
+         <p> Las stablecoins y el BTC consumieron una mayor parte de la capitalización total del mercado
+             de criptomonedas durante el tercer trimestre de 2024, según datos de Glassnode. </p>
 
-<p><h3> Actualmente, el bitcoin se cotiza a $62,735 por moneda, manteniendo una valoración de mercado de $1.31 billones. Esto coloca a bitcoin cómodamente en los primeros puestos de los activos globales—es ahora el décimo más grande del mundo por capitalización de mercado, junto a grandes corporaciones e incluso superando el valor de algunas economías enteras.
+             <br>
 
-    Muchos analistas están confiados en que el mercado seguirá tendiendo al alza a medida que avanza el mes. A pesar de cierta volatilidad, la capacidad del bitcoin para mantener su posición en el rango de los $60,000 sugiere un fuerte apoyo tanto de inversores institucionales como minoristas. Algunos pronósticos apuntan a que bitcoin superará los $65,000, con más escenarios alcistas prediciendo que podría incluso desafiar la marca de $80,000 a $100,000 antes de que termine el año.
-    
-    Según las predicciones de precios de bitcoin (BTC) de coincodex.com, se anticipa que BTC rompa la barrera de los $74K en menos de una semana, con una previsión a 30 días de $88,267. Eso es un salto de más del 40% desde su posición actual. Mirando hacia 2025, proyectan que bitcoin podría alcanzar un pico de $104,738, con un piso de $63,654. Para 2026, podríamos ver un mínimo de $84,756 y un máximo que asciende a $177,384.</h3></p>
+             <p> Los ETF de BTC al contado, que empezaron a cotizar en Estados Unidos en enero, atrajeron aproximadamente USD 5,000 millones a la moneda digital
+                 durante el tercer trimestre de 2024, según datos de Bloomberg y Coinbase. </p>
 
-<img src="imagenes/coincodex.webp" alt="ERROR"imagen style="width: 750px; height: auto;" >
+                 <br>
 
-<h3>Mientras tanto, changelly.com tiene su propio pronóstico. Para octubre, ve a bitcoin oscilando entre $61,473 y $76,664.73. En noviembre, predicen una ligera caída, con precios que oscilan entre $58,138.52 y $77,133.95. Diciembre, aunque se espera que sea más estable, parece más bajo con un rango de $61,097.32 a $63,022.10. Estos números insinúan tanto un crecimiento potencial como estabilidad en el futuro cercano. </h3>
+                 <img src="imagenes/grafica 2.jpg" alt="ERROR" width="50%" height="outu">
 
-<img src="imagenes/grafica.webp" alt="ERROR" imagen style="width: 750px; height: auto;">
+            <p>En el tercer trimestre, la capitalización total del mercado de stablecoins alcanzó un máximo histórico de aproximadamente USD 160,000 millones "a medida que los participantes del mercado continúan
+                 utilizándolas para una variedad de casos de uso nuevos y existentes", según Glassnode.  </p>
 
-<h3>Según las métricas de changelly.com para 2025, se espera que bitcoin mantenga un crecimiento constante cada mes. Las estimaciones de enero sugieren precios entre $61,651.60 y $70,344.69. Para julio de 2025, bitcoin podría aumentar a un rango de $82,730.07 a $86,595.37. Al llegar a diciembre de 2025, las previsiones insinúan un máximo de $100,137.61 y un mínimo de $100,295.47. Con un ROI proyectado de 61.1%, el año podría ver un impulso constante al alza. </h3>
+                 <br>
 
-<h3>Según las métricas de changelly.com para 2025, se espera que bitcoin mantenga un crecimiento constante cada mes. Las estimaciones de enero sugieren precios entre $61,651.60 y $70,344.69. Para julio de 2025, bitcoin podría aumentar a un rango de $82,730.07 a $86,595.37. Al llegar a diciembre de 2025, las previsiones insinúan un máximo de $100,137.61 y un mínimo de $100,295.47. Con un ROI proyectado de 61.1%, el año podría ver un impulso constante al alza.
+                 <p> Los ETF de Ether 
+                    ETH
+                    tickers down
+                    2404,79 €
+                     siguieron registrando salidas de dinero, ya que los inversores retiraron efectivo de Grayscale Ethereum Trust (ETHE), que se lanzó con una estructura
+                      de fondo diferente en 2017 antes de convertirse en un ETF en 2024. </p>
 
-    Según las últimas probabilidades de Polymarket, los apostadores le otorgan a bitcoin (BTC) un 29% de probabilidad de alcanzar los $70,000 este mes. La probabilidad de que BTC llegue a $67,500 se establece en un 54% para octubre. Por el lado negativo, hay un 37% de probabilidad de que caiga a $57,500. Esta apuesta concluye el 31 de octubre, con $599,477 en volumen al momento de la prensa. Los apostadores de Polymarket también colocan las probabilidades de que BTC alcance un nuevo máximo histórico este año en un 57%. </h3>
+                      <br>
 
-    <!-- Iconos de seguir en redes sociales -->
+                      <p>El rendimiento de los precios al contado de ETH va a la zaga del de BTC, pero "si miramos más allá del precio, vemos un ecosistema de Ethereum en rápido
+                         crecimiento, liderado por la fuerza de las nuevas e innovadoras capas 2", según el informe.  </p>
 
-<br>
+                     <br>
+
+                 <img src="imagenes/grafica 3.jpg" alt="ERROR" width="50%" height="outu">
+
+                   <br>
+
+                   <p> En 2024, las direcciones activas diarias de Ethereum aumentaron drásticamente y las transacciones se quintuplicaron en comparación con el inicio de 2023, según el informe. El informe citó una
+                     proliferación de redes de escalado de capa 2, como Base de Coinbase, como catalizador.</p>
+
+                  <br>
+
+                  <p> Al mismo tiempo, ETH "ha recuperado una cuota de mercado sustancial de las tarifas entre las cadenas de bloques L1 que generan tarifas, recuperándose de un mínimo del 9%
+                     a finales de agosto al 40% a finales de septiembre", según el informe.</p>
+
+        </h2></p>
+
+        <br>
+
+    <!-- Iconos de redes sociales -->
 
     <h1><b>Síguenos en nuestras redes sociales</b></h1>
-    <h1>
-        <section class="buttons">
+<h2>
+    <section class="buttons">
         <h6>Twitter</h6>
         <a href="https://x.com/NoticiasBitconi" class="fa fa-twitter"></a>
 
@@ -162,10 +194,8 @@
 
         <h6>YouTube</h6>
         <a href="https://www.youtube.com/@PepeSoto-m8k" class="fa fa-youtube"></a>
-
-        <br>
     </section>
-   </h1>
+</h2>
 
 </body>
 </html>

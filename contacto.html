@@ -1,6 +1,5 @@
-
 <!DOCTYPE html>
- <!-- Este código es de experimento -->
+<!-- Este código es de experimento -->
 <html lang="es">
 <head>
     <!-- Versión del código 1.2.3V -->
@@ -15,6 +14,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f4;
         }
 
         header {
@@ -57,9 +57,22 @@
             color: black;
         }
 
+        /* Estilo para el contenido */
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        h2 {
+            text-align: center;
+            margin: 10px 0;
+            font-weight: normal;
+        }
+
         /* Estilo para los iconos de redes sociales */
         .buttons {
-            margin-top: 20px;
+            margin: 20px auto;
+            text-align: center;
         }
 
         .buttons h6 {
@@ -69,6 +82,33 @@
         .buttons a {
             font-size: 24px;
             color: #333;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+
+        .buttons a:hover {
+            color: #4CAF50; /* Cambia el color al pasar el ratón */
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            nav ul li {
+                margin: 5px 0;
+            }
+
+            h1, h2 {
+                font-size: 18px;
+            }
         }
     </style>
 </head>
@@ -85,26 +125,18 @@
         </nav>
     </header>
 
-    <h1>email</h1>
-    <p><h2> noticiasbitcoinmx@gmail.com</h2></p>
+    <h1>Email</h1>
+    <h2>noticiasbitcoinmx@gmail.com</h2>
 
     <!-- Iconos de seguir en redes sociales -->
-
-<br>
-
     <h1><b>Síguenos en nuestras redes sociales</b></h1>
-     <h1>
-        <section class="buttons">
+    <section class="buttons">
         <h6>Twitter</h6>
-        <a href="https://x.com/NoticiasBitconi" class="fa fa-twitter"></a>
-
-        <br>
+        <a href="https://x.com/NoticiasBitconi" class="fa fa-twitter" target="_blank"></a>
 
         <h6>YouTube</h6>
-        <a href="https://www.youtube.com/@PepeSoto-m8k" class="fa fa-youtube"></a>
+        <a href="https://www.youtube.com/@PepeSoto-m8k" class="fa fa-youtube" target="_blank"></a>
+    </section>
 
-        <br>
-        </section>
-   </h1>
 </body>
 </html>
